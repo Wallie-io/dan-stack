@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "build",
+    "skipLibCheck": true,
+    "composite": true
+  },
+
+  "ts-node": {
+    "files": true
+  },
+  "files": ["index.d.ts"],
+  "include": ["src/**/*.ts"],
+  "lib": ["ES2022"]
+}
