@@ -1,7 +1,7 @@
 {
   "workspaces": [
     "api",
-    "dashboard"
+    "site"
   ],
   "engines": {
     "node": ">=18.0.0",
